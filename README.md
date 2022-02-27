@@ -12,10 +12,13 @@ Importance:
 RedHat prominently delivers Customer Centric Solutions effectively in order to be the catalyst in communities of customers, contributors, and partners creating better technology in the open source way, It is very important to understand who are the most potential customers who add a value to their mission statement .Eventually by solving the problem we can understand the business value outcome which can be defined by a yes(1)or no(0) uniquely onto each activity in the data which helps Red hat build flexible, powerful IT infrastructure solutions. Red Hat plans to use these prediction models to efficiently prioritize resources by knowing their customers to generate future business and serve them by better understanding the Pre,Present and Post Journeys of different types of customers. Businesses can be better equipped to develop successful strategies by supporting the customers which is directly proportional in adding the real value to their way.
 
 Technologies Used:
-Python 2.7
-RFE
-Logistic Regression
-Random Forest Classifier
+Python 2.7,
+RFE,
+Logistic Regression,
+Random Forest Classifier,
+Aws,
+Heroku,
+Anaconda Prompt.
 
 Deployments :
 
@@ -58,11 +61,16 @@ AUC scores for Random Forest ,Decision tree & Adaboost are more when compared to
 
 ![image](https://user-images.githubusercontent.com/51218875/155869211-e174d425-d3b9-4776-8645-645759f7a758.png)
 
+
+**ModelDeployment & Productionization**
+
+
 **Local Box deployment using Flask**
 
 **Prerequisites** : Flask file,packages,Html file,Model.pklfiles,Sublime,Anaconda Prompt
 
-For our local deployment we need to build a model and set our project deployment folder ready which consists of an app.py (Flask file) ,index.html and also store the model and key model related supporting pickle files 
+For our local deployment we need to build a model and set our project deployment folder ready which consists of an app.py (Flask file),
+index.html and also store the model and key model related supporting pickle files 
 
 ![image (1)](https://user-images.githubusercontent.com/51218875/155869271-5bdbad38-9fb4-4fcb-9e7c-00bcec47de28.png)
 ![image (2)](https://user-images.githubusercontent.com/51218875/155869277-6d94677c-c52b-4993-b92b-96df2a2db61b.png)
@@ -104,15 +112,15 @@ Steps:
 
 1)Train our Model : Decision tree pkl file
 
-2)Create Webapp using Flask
+2)Create Webapp using Flask and reate a requirements.txt
 
 3)Commit the code in Github and also create a Procfile
 
 4)Create an account in Heroku(PAAS)
 
-5)Link the Github( to Heroku
+5)Link the Github( to Heroku)
 
-6)Deploy the Model
+6)Deploy the Model on heroku (PAAS)
 
 7)Web App is ready
 
