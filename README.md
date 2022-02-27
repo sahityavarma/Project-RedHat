@@ -52,6 +52,13 @@ Preprocessing:
 6)Separate the data and labels
 
 Univariate ,Bi&MultiVariate analysis is done for data visualisation
+
+![image (5)](https://user-images.githubusercontent.com/51218875/155870084-ddeb3b0b-79d8-4b81-b6bc-f067c8267c3e.png)
+![image (6)](https://user-images.githubusercontent.com/51218875/155870089-22072bd8-314b-4f21-94c6-dbdc163969b1.png)
+![TSNE](https://user-images.githubusercontent.com/51218875/155870116-9dbd1376-55f9-4991-ad73-3490bec78b06.PNG)
+
+
+
 Splitting Data into Training and Test Sets
 
 **Model Building & Evaluation**
