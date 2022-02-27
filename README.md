@@ -38,4 +38,8 @@ Preprocessing:
 6)Separate the data and labels
 
 Univariate ,Bi&MultiVariate analysis is done for data visualisation
+Splitting Data into Training and Test Sets
+**Model Building & Evaluation**
+Comparision of Various Models After Modelling
+AUC scores for Random Forest ,Decision tree & Adaboost are more when compared to other models. We can see that almost all the models performed more or less good.Random Forest model with hyperparameter tuning gave the best score out of all the models on both train and test data(Sensitivity).Eventually after observing all the model algorithm performance scores , we choose Decision tree model for deployment purpose rather than random forest because it requires low computation, thus reducing time to implement.
 
