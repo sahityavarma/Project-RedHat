@@ -46,7 +46,25 @@ AUC scores for Random Forest ,Decision tree & Adaboost are more when compared to
 ![image](https://user-images.githubusercontent.com/51218875/155869211-e174d425-d3b9-4776-8645-645759f7a758.png)
 
 **Local Box deployment using Flask**
-Prerequisites : Flask file,packages,Html file,Model.pklfiles
+Prerequisites : Flask file,packages,Html file,Model.pklfiles,Sublime,Anaconda Prompt
 
 For our local deployment we need to build a model and set our project deployment folder ready which consists of an app.py (Flask file) ,index.html and also store the model and key model related supporting pickle files 
 
+![image (1)](https://user-images.githubusercontent.com/51218875/155869271-5bdbad38-9fb4-4fcb-9e7c-00bcec47de28.png)
+![image (2)](https://user-images.githubusercontent.com/51218875/155869277-6d94677c-c52b-4993-b92b-96df2a2db61b.png)
+**Flask Error Handling using Html**
+We can handle our application errors by identifying what error code it is redirecting and handle it by adding it in our flask code and rendering a new error handler html page.
+Case1: Giving Nan in an input field which is not in range 
+Case 2: Leaving a field as Blank
+
+
+**Deploy an ML Model In Cloud Using Flask APIs on AWS**
+
+Steps:
+Build a model on your local box (Red_hat) and store the model and other key model(Decision Tree) related variables in .pkl files
+Launch a micro instance on AWS.
+Connect to the AWS box [ssh]
+Move the files to an AWS EC2 instance/box [scp]
+Install all packages needed on the AWS box.
+Run app.py on the AWS box.
+Check the output in the browser
