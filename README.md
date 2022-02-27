@@ -43,3 +43,10 @@ Splitting Data into Training and Test Sets
 Comparision of Various Models After Modelling
 AUC scores for Random Forest ,Decision tree & Adaboost are more when compared to other models. We can see that almost all the models performed more or less good.Random Forest model with hyperparameter tuning gave the best score out of all the models on both train and test data(Sensitivity).Eventually after observing all the model algorithm performance scores , we choose Decision tree model for deployment purpose rather than random forest because it requires low computation, thus reducing time to implement.
 
+![image](https://user-images.githubusercontent.com/51218875/155869211-e174d425-d3b9-4776-8645-645759f7a758.png)
+
+**Local Box deployment using Flask**
+Prerequisites : Flask file,packages,Html file,Model.pklfiles
+
+For our local deployment we need to build a model and set our project deployment folder ready which consists of an app.py (Flask file) ,index.html and also store the model and key model related supporting pickle files 
+
