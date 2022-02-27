@@ -1,8 +1,12 @@
-****# Project-RedHat
+# Project-RedHat
 
 # Predicting RedHat Business Value
 
 **Problem Statement : Classify accurately to identify which customers have the most potential and Business value for RedHat based on their characteristics and activities**
+
+
+![REDHAT](https://user-images.githubusercontent.com/51218875/155869079-3d1ad993-399a-4fab-8c8b-4d259ac1b46c.png)
+
 
 Importance:
 RedHat prominently delivers Customer Centric Solutions effectively in order to be the catalyst in communities of customers, contributors, and partners creating better technology in the open source way, It is very important to understand who are the most potential customers who add a value to their mission statement .Eventually by solving the problem we can understand the business value outcome which can be defined by a yes(1)or no(0) uniquely onto each activity in the data which helps Red hat build flexible, powerful IT infrastructure solutions. Red Hat plans to use these prediction models to efficiently prioritize resources by knowing their customers to generate future business and serve them by better understanding the Pre,Present and Post Journeys of different types of customers. Businesses can be better equipped to develop successful strategies by supporting the customers which is directly proportional in adding the real value to their way.
