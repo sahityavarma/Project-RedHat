@@ -56,7 +56,8 @@ For our local deployment we need to build a model and set our project deployment
 We can handle our application errors by identifying what error code it is redirecting and handle it by adding it in our flask code and rendering a new error handler html page.
 Case1: Giving Nan in an input field which is not in range 
 Case 2: Leaving a field as Blank
-
+![Nullvalues](https://user-images.githubusercontent.com/51218875/155869416-90a72dbc-2ab2-4ffc-ae54-6cdcc40bcf76.png)
+![fill invalues](https://user-images.githubusercontent.com/51218875/155869426-fb18b854-07bf-47f0-8f77-cc1110cf6003.png)
 
 **Deploy an ML Model In Cloud Using Flask APIs on AWS**
 
@@ -68,3 +69,4 @@ Move the files to an AWS EC2 instance/box [scp]
 Install all packages needed on the AWS box.
 Run app.py on the AWS box.
 Check the output in the browser
+
